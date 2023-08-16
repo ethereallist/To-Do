@@ -16,7 +16,7 @@ const Button = () => {
     return (
         <Wrapper>
             <Title>
-                Hello World!
+                Bye World! 
             </Title>
         </Wrapper>
     );
