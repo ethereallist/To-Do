@@ -1,10 +1,10 @@
 import './App.css';
-import Button from './components/atoms';
+import Box from './components/molecules/Box';
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <Box />
     </div>
   );
 }
