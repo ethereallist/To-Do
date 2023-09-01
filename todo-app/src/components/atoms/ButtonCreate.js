@@ -4,7 +4,7 @@ const Button = styled.button`
 width: 10%;
 height: 5%;
 flex-shrink: 0;
-background-color: #1C1C1C;
+background-color: blue;
 border-radius: 10%
 `
 const ButtonText = styled.span`
