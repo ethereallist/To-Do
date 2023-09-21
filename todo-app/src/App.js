@@ -1,10 +1,10 @@
 import './App.css';
-import Box from './components/molecules/Box';
+import BigBox from './components/organisms/BigBox'
 
 function App() {
   return (
     <div className="App">
-      <Box />
+      <BigBox />
     </div>
   );
 }

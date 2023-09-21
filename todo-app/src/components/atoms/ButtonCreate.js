@@ -1,20 +1,29 @@
 import { styled } from "styled-components"
 
 const Button = styled.button`
-width: 10%;
-height: 5%;
-flex-shrink: 0;
-background-color: blue;
-border-radius: 10%
-`
+  width: 150px; 
+  height: 40px; 
+  background-color: #292B30; 
+  border: none; 
+  border-radius: 10px; 
+  color: #fff; 
+  font-size: 14px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin: 10px; 
+  
+  &:hover {
+    background-color: white; 
+    color: black; 
+  }
+`;
+
 const ButtonText = styled.span`
-color: rgba(255, 255, 255, 0.70);
-text-align: right;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-`
+  font-size: 14px; 
+  font-weight: 600; 
+  line-height: 1.5; 
+    
+`;
 
 function ButtonCreate() {
     return (
